@@ -1,16 +1,12 @@
 #include<stdio.h>
 
-/*
+/**
+ *main - Entry point
  *
- * Using put
- *
-*/
+ *Return: Always 0 (Success)
+ **/
 int main(void)
 {
-	/*
-	 * Using put
-	 *
-	 */
 	char Mystr[] = "\"Programming is like building a multilingual puzzle";
 
 	puts(Mystr);
