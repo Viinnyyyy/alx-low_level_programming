@@ -7,13 +7,6 @@
  **/
 void print_alphabet(void)
 {
-	void i;
-
-	print_alphabet()
-	{
-		_putchar(i);
-	}
-	_putchar('\n');
-	
-	
+	print_alphabet();
+	_putchar('\n');	
 }
