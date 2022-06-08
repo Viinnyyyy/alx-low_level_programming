@@ -2,8 +2,7 @@
 
 /**
  *_islower - check the code
- *
- *@c - the ASCII equivakent
+ *@c: the ASCII equivakent
  *
  *Return: char.
  **/
