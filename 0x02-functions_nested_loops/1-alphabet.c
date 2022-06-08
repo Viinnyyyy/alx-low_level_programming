@@ -7,9 +7,9 @@
  **/
 void print_alphabet(void);
 {
-	int l
+	int i;
 
-	for (l = 'a'; i <= 'z'; i++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
 		print_alphabet();
 	}
