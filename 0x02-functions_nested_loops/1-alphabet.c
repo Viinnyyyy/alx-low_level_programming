@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  *main - check the code
  *
@@ -7,13 +7,15 @@
  **/
 int main(void)
 {
-	char c;
-
-	for (c = 'a'; c <= 'z'; c++)
+	int i
+	for (i = 0; i < 10; i++)
 	{
-		putchar('c');
-	}
+		while (i < 10)
+		{
+		print_alphabet();
+		}
 
-	putchar('\n');
+	_putchar('\n');
+	}
 	return (0);
 }
