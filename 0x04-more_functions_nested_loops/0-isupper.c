@@ -1,5 +1,4 @@
 #include "main.h"
-#include <std.to>
 
 /**
  *_isupper - gets upper cased letters
@@ -10,7 +9,7 @@
 
 int _isupper(int c)
 {
-	for (c >= 'A' || c <= 'Z')
+	for (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
