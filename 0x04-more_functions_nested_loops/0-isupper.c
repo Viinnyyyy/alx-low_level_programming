@@ -1,7 +1,8 @@
 #include "main.h"
+#include <std.to>
 
 /**
- *isupper - gets upper cased letters
+ *_isupper - gets upper cased letters
  *
  *@c: character
  *Return: 1 if upper and 0 if not
