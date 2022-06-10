@@ -1,14 +1,15 @@
 #include "main.h"
 
 /**
- * int _isupper(int c) - gets upper cased letters
+ *isupper - gets upper cased letters
  *
- *Return : 1 if upper and 0 if not
+ *@c: character
+ *Return: 1 if upper and 0 if not
  */
 
 int _isupper(int c)
 {
-	for ( c >= 65 || c <= 90)
+	for (c >= 'A' || c <= 'Z')
 	{
 		return (1);
 	}
