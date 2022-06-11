@@ -3,21 +3,22 @@
 /**
  *print_most_numbers - prints most numbers*
  *
- *@i: integer 
+ *Desription: prints
  *
- *Return: void
+ *Return: Nothing
  */
 void print_most_numbers(void)
 {
-	int i;
+	int a = 0;
 
-	if (i = 0; i <= 9; i++)
+	while (a < 10)
 	{
-		if (i = 2 || i = 4)
+		if (i == 2 || i == 4)
 		{
 			continue;
 		}
-		_putchar (i);
+		_putchar (a + '0');
+		a++;
 	}
 	_putchar('\n');
 
