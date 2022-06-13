@@ -11,10 +11,10 @@
  */
 int _strlen(char *s)
 {
-	char *s[50000];
+	char str;
 	int len;
 
-	len = strlen(char *s);
+	len = strlen(const char *str);
 
 	return (len);
 }
