@@ -2,7 +2,7 @@
 
 /**
  *
- *reset_to_98 - The function
+ *reset_to_98 - resets the function
  *
  *@n: integer
  *@*p: pointer
