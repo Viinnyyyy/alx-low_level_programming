@@ -5,6 +5,7 @@
 /**
  **_strncat - concatenate strings
  *
+ *@n: maximum characters from src
  *@dest: destination
  *@src: source
 	 *Return: char
