@@ -12,7 +12,7 @@
  */
 int _strcmp(char *s1, char *s2)
 {
-	unsigned char c1, c2;
+	char c1, c2;
 
 	while (s1 == s2)
 	{
