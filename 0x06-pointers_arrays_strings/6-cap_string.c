@@ -2,10 +2,10 @@
 /**
  * cap_string - Capitalizes string
  *
- *@ptr: String to be altered
+ *@str: String to be altered
  *Return: returns char
  */
-char *cap_string(char *ptr)
+char *cap_string(char *str)
 {
 	int i = 0;
 
