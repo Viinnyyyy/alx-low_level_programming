@@ -6,11 +6,12 @@
  *@str: String to be altered
  *Return: returns char
  */
-char *cap_string(char *str)
+char *cap_string(char *)
 {
+	char *str;
 	int i = 0;
 
-	hile (str[i])
+	while (str[i])
 	{
 		while (!(str[i] >= 'a' && str[i] <= 'z'))
 		{
