@@ -12,17 +12,14 @@ int main(void)
 	int hex;
 
 
-	for (n = 0; n < 10;)
+	for (n = 0; n < 10; n++)
 	{
 		putchar(n % 10 + '0');
-		n++;
 	}
 
-	for (hex = 'a'; n <= 'f';)
+	for (hex = 'a'; n <= 'f'; hex++)
 	{
 		putchar(hex);
-		hex++;
-
 	}
 
 	putchar('\n');
