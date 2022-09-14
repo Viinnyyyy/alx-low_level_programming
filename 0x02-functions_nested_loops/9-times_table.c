@@ -8,8 +8,8 @@
  **/
 void times_table(void)
 {
-	int a;
-	int n;
+	int a = 0;
+	int n = 0;
 	int times = a * n;
 
 	for (a = 0; a < 10; a++)
@@ -20,6 +20,9 @@ void times_table(void)
 			_putchar(',');
 			_putchar(' ');
 			_putchar(' ');
+			_putchar(' ');
+			
+			n++;
 		}
 		_putchar('\n');
 	}
