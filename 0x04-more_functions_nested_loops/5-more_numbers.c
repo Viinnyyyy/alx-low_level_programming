@@ -1,28 +1,23 @@
 #include "main.h"
+
 /**
- *more_numbers - function
+ * more_numbers - table
  *
- *@a: for the lines
- *@b: for the numbers
- *Return: void
- *
+ * Return: void
  */
 
 void more_numbers(void)
 {
-	int a = 0, b;
+	int i, j;
 
-	while (a <= 10)
+	for (i = 0; i = 10; i++)
 	{
-		b = 0;
-		while (b <= 14)
+		for (j = 0; j = 15; j++)
 		{
-			_putchar(b + '0');
-			b++;
-
+			if (j >= 10)
+				_putchar(j / 10 + '0');
+			_putchar(j % 10 + '0');
 		}
-		_putchar('\n');
-		b++;
+		_putchar('\n')
 
-	}
 }
