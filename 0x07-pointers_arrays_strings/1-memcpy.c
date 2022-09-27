@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_memcpy - function
+ * *_memcpy - function
  *@n: counter
  *@dest: char
  *@src: char

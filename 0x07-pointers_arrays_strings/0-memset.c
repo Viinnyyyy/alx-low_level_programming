@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *_memset - function
+ * *_memset - function
  *@n: counter
  *@s: char
  *@b: char
